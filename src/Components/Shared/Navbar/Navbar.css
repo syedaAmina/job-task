@@ -1,7 +1,30 @@
+.navbar{
+    background-color:#03405c5d;
+}
 .logo {
     width: 150px;
     height: 60px;
 }
-.icon{
+.nav-link{
+    display: flex;
+    font-weight: bold;
+}
+
+.nav-icon{
+    justify-content: space-around;
+}
+.search-input{
+    height:30px;
+    border: none;
+    border-radius: 5px;
+}
+.search-input:focus{
+    outline: none;
+}
+.chat-icon{
+    margin-left: 10px;
     
+}
+.notifications-icon{
+    margin-left: 10px;
 }
