@@ -1,0 +1,9 @@
+.sidebarleft{
+    flex:2;
+}
+.middleBar{
+    flex:6;
+}
+.rightBar{
+    flex:4;
+}

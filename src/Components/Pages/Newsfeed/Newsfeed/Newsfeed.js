@@ -92,7 +92,7 @@ Get offers from Japanese tech-companies that match your skills!</p>
 
         
 </div>
-<div className='newsfeedRight'>
+<div className='newsfeedRight mr-10'>
 <div className="flex  justify-between">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">Sponsored</a>
@@ -100,7 +100,7 @@ Get offers from Japanese tech-companies that match your skills!</p>
       </div>
 {/* sponsored  */}
 <div className="card w-96 bg-base-100 shadow-xl">
-  <figure><img src={ai} alt="Shoes" /></figure>
+  <figure><img className='w-64' src={ai} alt="Shoes" /></figure>
   <div className="card-body">
     
     <p className='text-sm'>The Computer Professionals Program has been running for 25 years and is the 2nd largest Master’s in Computer Science Program in the USA.  We encourage enrollment of US and international students.
@@ -110,15 +110,10 @@ Get offers from Japanese tech-companies that match your skills!</p>
     </div>
   </div>
 </div>
-
-
           </div>
     </div>
  
-          
-
-
-
+        
         </section>
     );
 };

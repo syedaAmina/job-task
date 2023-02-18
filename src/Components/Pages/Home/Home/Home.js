@@ -70,18 +70,18 @@ const Home = () => {
          </div>
     </div>
 
-    <div className='middlePart ml-10'>
+    <div className='middlePart ml-10 mt-4'>
 
-    <div className='ml-10 space-x-2'>
-    <div className="avatar mt-4">
-  <div className="w-10  ml-10 mt-2 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+    <div className='ml-8 space-x-2 flex'>
+    <div className="avatar mt-4 ">
+  <div className="w-10 space-x-2 ml-10 mt-2 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
     <img src={girl2} alt='lost'/>
   </div>
 </div>
-<input type="text" placeholder="What's on Your mind,Syedzadi?" className="textarea-bordered w-64  mt-2 input rounded-full max-w-xs" />
+<div className='mt-4'><input type="text" placeholder="What's on Your mind,Syedzadi?" className="textarea-bordered w-64 h-10 space-y-8 mt-2 input rounded-full" /></div>
   </div>
 
- <div>
+ <div className='mt-4'>
  <div className="card ml-10 w-96 bg-base-100 ">
   <div className="card-body">  
   <div className='flex space-y-4 space-x-4 mt-2'>
