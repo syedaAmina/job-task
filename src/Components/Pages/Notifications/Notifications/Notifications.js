@@ -1,4 +1,7 @@
 import React from 'react';
+import girl2 from '../../../../assests/img/girl2.jpg';
+
+// import { Event, Feedback, Group,  HelpRounded, Logout, Pages,  PrivacyTip,  Settings,  SupportRounded, } from '@mui/icons-material';
 
 const Notifications = () => {
     return (
@@ -12,6 +15,11 @@ const Notifications = () => {
           </button>
         </div>
       </div>
+    //  sidebar 
+       
+
+
+
      
     );
 };

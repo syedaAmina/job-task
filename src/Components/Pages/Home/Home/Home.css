@@ -1,0 +1,21 @@
+.fullHome{
+    display: flex;
+}
+.sidebarLeft{
+    flex: 2;
+    
+}
+.myProfile{
+    display: flex;
+    margin-left: 45px;
+  
+}
+
+.middlePart{
+    width: 80%;
+    height: 100%;
+    flex: 6;
+}
+.rightBar{
+    flex: 4;
+}

@@ -1,0 +1,12 @@
+
+.newsfeedLeft{
+    flex: 2;
+    
+}
+.newsfeedMiddle{
+    height: 100%;
+    flex: 6;
+}
+.newsfeedRight{
+    flex: 4;
+}

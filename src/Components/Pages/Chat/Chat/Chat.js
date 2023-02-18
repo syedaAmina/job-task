@@ -1,40 +1,44 @@
 import React from 'react';
 import './Chat.css';
 import dr from '../../../../assests/img/dr.jpg';
-import girl from '../../../../assests/img/girl.png';
-import girl2 from '../../../../assests/img/girl2.jpg'
+import girl2 from '../../../../assests/img/girl2.jpg';
+import people2 from '../../../../assests/img/people2.jpg';
+import people3 from '../../../../assests/img/people3.jpg';
+import people4 from '../../../../assests/img/people4.png';
+import people5 from '../../../../assests/img/people5.png';
+import people1 from '../../../../assests/img/people1.png';
 const Chat = () => {
     return (
       <section className='fullChat'>
           <div className='chatLeft '>
           <div className="avatar online">
   <div className="w-24 rounded-full">
-    <img src={dr} alt='lost' />
+    <img src={people1} alt='lost' />
   </div>
 </div>
 <div className="avatar offline">
   <div className="w-24 rounded-full">
-    <img src={girl} alt='lost' />
+    <img src={people2} alt='lost' />
   </div>
 </div>
           <div className="avatar online">
   <div className="w-24 rounded-full">
-    <img src={dr} alt='lost' />
+    <img src={people3} alt='lost' />
   </div>
 </div>
 <div className="avatar offline">
   <div className="w-24 rounded-full">
-    <img src={girl} alt='lost' />
+    <img src={dr} alt='lost' />
   </div>
 </div>
           <div className="avatar online">
   <div className="w-24 rounded-full">
-    <img src={dr} alt='lost' />
+    <img src={people4} alt='lost' />
   </div>
 </div>
 <div className="avatar offline">
   <div className="w-24 rounded-full">
-    <img src={girl} alt='lost' />
+    <img src={people5} alt='lost' />
   </div>
 </div>
             </div>
@@ -42,7 +46,7 @@ const Chat = () => {
             <div className='chatMiddle '>
             <div className="chat chat-start">
   <div className="chat-image avatar">
-    <div className="w-5 rounded-full">
+    <div className="w-10 rounded-full">
       <img src={girl2} alt='lost'/>
     </div>
   </div>
@@ -58,7 +62,7 @@ const Chat = () => {
 <div className="chat chat-end">
   <div className="chat-image avatar">
     <div className="w-10 rounded-full">
-      <img src={girl} alt='lost'/>
+      <img src={people2} alt='lost'/>
     </div>
   </div>
   <div className="chat-header">
